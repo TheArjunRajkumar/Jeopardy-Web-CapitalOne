@@ -2,15 +2,13 @@ const request = require('request')
 const fs = require('fs')
 
 request('http://jservice.io/api/categories?count=100', {json: true}, (err, res, body) => {
-    //console.log(body);
-
     let new_categories = {};
 
     for (var p in body) {
         new_categories[body[p]['title']] = body[p]['id']
     }
 
-    if (fs.existsSync('../categories.json')) {
+    if (fs.existsSync('../src/categories.json')) {
         fs.readFile('../categories.json', (err, data) => {
             if (err) { console.log(err) }
             else {

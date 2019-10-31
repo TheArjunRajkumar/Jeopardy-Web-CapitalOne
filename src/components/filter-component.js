@@ -24,15 +24,15 @@ export default class CategoryFilterComponent extends React.Component {
     render() {
       return (
         <div>
-          <form>
-                <input type="text" placeholder="Search" onChange={this.filterList}/>
-          </form>
-          <div>
-            {
-                this.state.items.map(function(item) {
-                    return <div key={item}>{item}</div>
-                })
-            }
+            <form>
+                <input type="text" placeholder="Enter a category!" onChange={this.filterList}/>
+            </form>
+            <div>
+                {
+                    this.state.items.map(function(item) {
+                        return <div key={item}>{item}</div>
+                    })
+                }
             </div>
         </div>
       );
