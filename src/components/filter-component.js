@@ -1,40 +1,23 @@
 import React from 'react';
+import { Dropdown } from 'semantic-ui-react'
+import _ from 'underscore'
+import categories from '../categories.json'
 
-export default class CategoryFilterComponent extends React.Component {
-    state = {
-        initialItems: [],
-        items: []
-    }
+const mapped_categories = _.map(categories, (id, elt) => ({
+  key: id,
+  text: elt,
+  value: elt
+}));
 
-    filterList = (event) => {
-      let items = this.state.initialItems;
-      items = items.filter((item) => {
-        return item.toLowerCase().search(event.target.value.toLowerCase()) !== -1;
-      });
-      this.setState({items: items});
-    }
+const CategoryFilterComponent = () => (
+  <Dropdown
+    placeholder='Category'
+    fluid
+    multiple
+    search
+    selection
+    options={mapped_categories}
+  />
+);
 
-    componentWillMount = () => {
-      this.setState({
-          initialItems: this.props.content,
-          items: this.props.content
-      })
-    }
-
-    render() {
-      return (
-        <div>
-            <form>
-                <input type="text" placeholder="Enter a category!" onChange={this.filterList}/>
-            </form>
-            <div>
-                {
-                    this.state.items.map(function(item) {
-                        return <div key={item}>{item}</div>
-                    })
-                }
-            </div>
-        </div>
-      );
-    }
-};
+export default CategoryFilterComponent

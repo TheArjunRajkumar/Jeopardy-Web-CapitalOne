@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
-import logo from './logo.svg';
 import CategoryFilterComponent from './components/filter-component';
-import categories from './categories.json'
+import { Container, Header } from 'semantic-ui-react';
+
+const styleLink = document.createElement("link");
+styleLink.rel = "stylesheet";
+styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css";
+document.head.appendChild(styleLink);
 
 class App extends Component {
   render() {
-    const countries = Object.keys(categories)
-
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <CategoryFilterComponent content={countries} />
-        </header>
-      </div>
+      <Container style={{ margin: 20 }}>
+        <Header as="h3">Start typing in a category or select one</Header>
+        <CategoryFilterComponent/>
+      </Container>
     );
   }
 }
