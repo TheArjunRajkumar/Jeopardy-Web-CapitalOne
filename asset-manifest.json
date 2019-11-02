@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/css/main.5e4e9510.chunk.css",
-    "main.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/main.372f46a0.chunk.js",
-    "main.js.map": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/main.372f46a0.chunk.js.map",
+    "main.css": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/css/main.db9f0ed6.chunk.css",
+    "main.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/main.01bd42d6.chunk.js",
+    "main.js.map": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/main.01bd42d6.chunk.js.map",
     "runtime-main.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/runtime-main.6d60786e.js",
     "runtime-main.js.map": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/runtime-main.6d60786e.js.map",
-    "static/js/2.dfd393b6.chunk.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/2.dfd393b6.chunk.js",
-    "static/js/2.dfd393b6.chunk.js.map": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/2.dfd393b6.chunk.js.map",
+    "static/js/2.2e7bb030.chunk.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/2.2e7bb030.chunk.js",
+    "static/js/2.2e7bb030.chunk.js.map": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/js/2.2e7bb030.chunk.js.map",
     "index.html": "//thearjunrajkumar.github.io/jeopardy-web-interface/index.html",
-    "precache-manifest.4575ebe4e21479838d30ceeba19132b9.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/precache-manifest.4575ebe4e21479838d30ceeba19132b9.js",
+    "precache-manifest.9df3421fb8f2ea0f06e3dc3264232bc5.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/precache-manifest.9df3421fb8f2ea0f06e3dc3264232bc5.js",
     "service-worker.js": "//thearjunrajkumar.github.io/jeopardy-web-interface/service-worker.js",
-    "static/css/main.5e4e9510.chunk.css.map": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/css/main.5e4e9510.chunk.css.map",
-    "static/media/logo.svg": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/media/logo.25bf045c.svg"
+    "static/css/main.db9f0ed6.chunk.css.map": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/css/main.db9f0ed6.chunk.css.map",
+    "static/media/jeopardy.png": "//thearjunrajkumar.github.io/jeopardy-web-interface/static/media/jeopardy.f580950f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6d60786e.js",
-    "static/js/2.dfd393b6.chunk.js",
-    "static/css/main.5e4e9510.chunk.css",
-    "static/js/main.372f46a0.chunk.js"
+    "static/js/2.2e7bb030.chunk.js",
+    "static/css/main.db9f0ed6.chunk.css",
+    "static/js/main.01bd42d6.chunk.js"
   ]
 }
