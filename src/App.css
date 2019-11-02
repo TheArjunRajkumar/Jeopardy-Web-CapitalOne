@@ -4,6 +4,12 @@
 
 .App-logo {
   height: 40vmin;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
 }
 
 .App-header {
